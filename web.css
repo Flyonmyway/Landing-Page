@@ -52,9 +52,10 @@ ul {
 }
 
 .buttonone button {
-    background-color: #1f2937;
+    background-color: #3483eb;
     color: white;
     padding: 5px 10px;
+    border-radius: 5px;
 }
 
 .container {
