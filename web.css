@@ -61,17 +61,28 @@ ul {
 .container {
     display: flex;
     background-color: white;
-    padding: 32px;
-    justify-content: space-around;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 55vh;
+    margin: 0;
 }
 
-.container figure {
+.word {
+    display: flex;
+    justify-content: center;
+}
+
+.photo {
+    display: flex;
+}
+
+figure {
     margin: auto;
-    width: 200px;
 }
 
 .container figure img {
-    width: 200px;
+    width: 180px;
     border-radius: 8px;
     border: 5px solid transparent;
     border-color: #5E81F8;
