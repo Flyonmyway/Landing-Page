@@ -4,6 +4,7 @@ body{
     min-height: 200vh;
     display: flex;
     flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .body{
@@ -14,11 +15,12 @@ body{
 
 .header {
     display: flex;
+    margin: 0;
     background-color: #1f2937;
-    color:azure;
     height: 60px;
-    padding: 20px;
     flex-shrink: 0;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .header img {
@@ -27,9 +29,21 @@ body{
     border-radius: 50%;
 }
 
+.guide {
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+}
+.photo {
+    padding-left: 110px;
+    display: flex;
+    align-items: center;
+}
+
 a {
   text-decoration: none;  
-  color: white;
+  color: #F4F5E3;
 }
 
 
@@ -41,7 +55,7 @@ ul {
 
 .intro {
     background-color: #1f2937;
-    color: white;
+    color: #F4F5E3;
     display: flex;
     flex-direction: column;
     flex-grow: 2;
@@ -49,12 +63,15 @@ ul {
     margin: 0;
     min-height: 55vh;
     padding: 0 115px;
+    flex-shrink: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .buttonone button {
     background-color: #3483eb;
     color: white;
-    padding: 5px 10px;
+    border: none;
+    padding: 10px 24px;
     border-radius: 5px;
 }
 
@@ -71,6 +88,9 @@ ul {
 .word {
     display: flex;
     justify-content: center;
+    padding: 16px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .photo {
@@ -79,13 +99,14 @@ ul {
 
 figure {
     margin: auto;
+    text-align: center;
 }
 
 .container figure img {
     width: 180px;
     border-radius: 8px;
     border: 5px solid transparent;
-    border-color: #5E81F8;
+    border-color: #3882f6;
 }
 
 .quote {
@@ -96,21 +117,31 @@ figure {
 }
 
 .ending {
-    background-color: #5E81F8;
+    background-color: #3882f6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #dee1ec;
     display: flex;
     flex-grow: 0;
     margin: 100px;
     max-height: 30vh;
-    padding: 18px;
-    font-size: 30px;
+    padding: 15px 20px;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+
+.buttonend {
+    display: flex;
+    align-items: center;
 }
 
 .buttonend button {
-    background-color: #5E81F8;
+    background-color: #3882f6;
     border-radius: 10px;
     font-size: 18px;
-    padding: 5px 10px;
+    color: white;
+    padding: 10px 24px;
     border-color: white;
+    border-style: solid;
 }
 
 .footer {
@@ -119,3 +150,4 @@ figure {
     align-items: center;
     justify-content: center;
 }
+
