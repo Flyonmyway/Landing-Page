@@ -54,10 +54,9 @@ ul {
 }
 
 .intro {
+    display: flex;
     background-color: #1f2937;
     color: #F4F5E3;
-    display: flex;
-    flex-direction: column;
     flex-grow: 2;
     width: 100%;
     margin: 0;
@@ -65,6 +64,25 @@ ul {
     padding: 0 115px;
     flex-shrink: 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.introleft {
+    display: flex;
+    flex-direction: column;
+}
+
+.introright {
+    display: flex;
+    padding: 0px 16px 0px 200px;
+}
+
+.introright figure img {
+    width: 500px; 
+    height: 300px;
+    border-radius: 8px;
+    border: solid transparent;
+    border-color: #3882f6;
+    padding: 0px;
 }
 
 .buttonone button {
@@ -110,10 +128,13 @@ figure {
 }
 
 .quote {
-    display: flex;
     background-color:#D5D5D5;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
     flex-grow: 2;
     min-height: 55vh;
+    font-size: 35px;
+
 }
 
 .ending {
@@ -146,6 +167,8 @@ figure {
 
 .footer {
     display: flex;
+    background-color: #1f2937;
+    color: white;
     height: 72px;
     align-items: center;
     justify-content: center;
